@@ -2,13 +2,8 @@ body{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #00a69d;
 }
-input[type="submit"], input[type="reset"]{
-	color: #4e545b;
-    font-weight: bold;
-	background-color : #00a69d; 
-    border-radius: 25px 15px 30px 5px;
-    -moz-border-radius: 25px 15px 30px 5px;
-    -webkit-border-radius: 25px 15px 30px 5px;
+input, #optimize{
+    margin: 17px;
 }
 hr {
     background-color: purple;
@@ -123,4 +118,11 @@ h3 {
     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
     -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
     filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+#img-result{
+    display: block;
+    margin: auto;
+}
+#title-result{
+    font-family: cursive;
 }

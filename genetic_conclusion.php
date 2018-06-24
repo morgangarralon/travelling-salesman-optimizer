@@ -15,7 +15,10 @@ if(!empty($_POST)) {
         echo json_encode($e->getMessage());
     }
 
-    echo json_encode($geneticOptimizer->getOptimization());
+    $optimization = $geneticOptimizer->doOptimization();
+    $optimization['itinerary'] =  array_values($optimization['itinerary']);
+
+    echo json_encode($optimization);
 }
 
 ?>
