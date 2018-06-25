@@ -167,7 +167,7 @@ class GeneticOptimizer {
             $oldCityToSwap = $citiesToSwap[$keyToSwap[0]];
             unset($citiesToSwap[$keyToSwap[0]]);
             $citiesToSwap[$keyToSwap[0]] = $oldCityToSwap;
-            
+
             $citiesToSwap = $startCity + $citiesToSwap;
             $this->generation[$chromosomeToSwap[$i]] = new Chromosome($citiesToSwap);
         }
@@ -257,14 +257,6 @@ class GeneticOptimizer {
 
         return array_merge(array_flip($keys), $array);
     }
-
-//    private function array_key_replace($array, $oldKey, $newKey, $newValue) {
-//        $newArray = [];
-//        foreach ($array as $key => $value) {
-//            $newArray[$key === $oldKey ? $newKey : $key] = $newValue;
-//        }
-//        return $newArray;
-//    }
 
     /**
      * @return mixed

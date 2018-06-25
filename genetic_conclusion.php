@@ -1,7 +1,7 @@
 <?php
 /**
- * User: jerem & momomo
- * Date: 14/03/2018
+ * Created by: momomo
+ * Date: 26/06/2018
  */
 
 include_once 'class/GeneticOptimizer.php';

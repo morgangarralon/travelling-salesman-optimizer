@@ -1,7 +1,8 @@
 <?php
 /**
- * User: momomo
- * Date: 14/03/2018
+ * Created by: momomo
+ * Date: 26/06/2018
+ * Unused ********
  */
 
 define('API_KEY', 'AIzaSyBBGgsmfRsGYRyPqWKmwwKFFw__1XWBmOA');
@@ -16,10 +17,6 @@ if(!empty($_POST)) {
     $url .= 'origin='.urlencode($startCity['lat'] . ',' . $startCity['lng']);
     $url .= '&destination='.urlencode($endCity['lat'] . ',' . $endCity['lng']).'&waypoints=';
 
-//    foreach($route as $city) {
-//        $url .= 'via:' . urlencode($city['lat'] . ',' . $city['lng']);
-//        $url .= '|';
-//    }
     for($i = 0; $i < count($route); $i++) {
         $url .= 'via:' . urlencode($route[$i]['lat'] . ',' . $route[$i]['lng']);
         $url .= '|';

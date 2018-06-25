@@ -2,7 +2,7 @@ body{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #00a69d;
 }
-input, #optimize{
+input, #detect-button{
     margin: 17px;
 }
 hr {

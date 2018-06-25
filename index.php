@@ -40,7 +40,7 @@ session_start();
             <div>
                 <h2>Optimizin' section</h2>
 
-                <a id="optimize" data-toggle="modal" href="#conclusion" class="btn btn-secondary btn-lg">Detect!</a>
+                <a id="detect-button" data-toggle="modal" href="#conclusion" class="btn btn-secondary btn-lg">Detect!</a>
 
                 <div class="modal fade" id="conclusion" role="dialog" style="display: none;" aria-hidden="true">
                     <div class="modal-dialog modal-sm">
