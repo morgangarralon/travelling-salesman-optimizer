@@ -1,13 +1,15 @@
 $(function() {
-    $('#optimize')
+    $('#detect')
         .mouseenter(function() {
        $(this).fadeTo(100, 0.7);
+       $(this).attr('id', 'detect-hover');
     })
         .mouseleave(function() {
        $(this).fadeTo(100, 1);
+       $(this).attr('id', 'detect');
     });
 
-    $('#optimize').click(function(event) {
+    $('#detect').click(function(event) {
         url                         = './genetic_conclusion.php';
         iteration_number            = $('#iteration_number').val();
         data                        = { 'iteration_number': iteration_number };

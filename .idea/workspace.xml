@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc5a6336-90db-4fec-a863-04370b1be684" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/class/GeneticOptimizer.php" afterPath="$PROJECT_DIR$/class/GeneticOptimizer.php" />
       <change beforePath="$PROJECT_DIR$/css/travelling_style.css" afterPath="$PROJECT_DIR$/css/travelling_style.css" />
-      <change beforePath="$PROJECT_DIR$/genetic_conclusion.php" afterPath="$PROJECT_DIR$/genetic_conclusion.php" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change beforePath="$PROJECT_DIR$/js/travelling_script.js" afterPath="$PROJECT_DIR$/js/travelling_script.js" />
-      <change beforePath="$PROJECT_DIR$/maps_conclusion.php" afterPath="$PROJECT_DIR$/maps_conclusion.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,8 +91,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="175">
+              <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="e#6#55#0#PHP" expanded="true" />
               </folding>
@@ -103,21 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travelling_script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="travelling_script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/travelling_script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="196">
+              <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maps_conclusion.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maps_conclusion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maps_conclusion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding>
                 <element signature="e#6#74#0#PHP" expanded="true" />
               </folding>
@@ -129,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/css/travelling_style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -167,8 +164,8 @@
       <find>array_pop</find>
       <find>calculateDistancesTheoric</find>
       <find>seas</find>
-      <find>optimize</find>
       <find>detect</find>
+      <find>optimize</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -200,12 +197,12 @@
         <option value="$PROJECT_DIR$/../shape-detection/index.php" />
         <option value="$PROJECT_DIR$/class/JSONParser.php" />
         <option value="$PROJECT_DIR$/class/Chromosome.php" />
-        <option value="$PROJECT_DIR$/js/travelling_script.js" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/travelling_style.css" />
         <option value="$PROJECT_DIR$/class/GeneticOptimizer.php" />
         <option value="$PROJECT_DIR$/genetic_conclusion.php" />
         <option value="$PROJECT_DIR$/maps_conclusion.php" />
+        <option value="$PROJECT_DIR$/css/travelling_style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/travelling_script.js" />
       </list>
     </option>
   </component>
@@ -331,12 +328,12 @@
       <workItem from="1528045985474" duration="10525000" />
       <workItem from="1528787039843" duration="37000" />
       <workItem from="1529144451953" duration="1548000" />
-      <workItem from="1529257645630" duration="76464000" />
+      <workItem from="1529257645630" duration="77026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88574000" />
+    <option name="totallyTimeSpent" value="89136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -701,10 +698,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/travelling_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps_conclusion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="e#6#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="175">
+          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="e#6#55#0#PHP" expanded="true" />
           </folding>
@@ -713,27 +728,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/travelling_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="196">
+          <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/travelling_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maps_conclusion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#74#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
