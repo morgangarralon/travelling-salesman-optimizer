@@ -3,7 +3,10 @@ body{
 	color: #00a69d;
 }
 input, #detect, #detect-hover{
+    color: #fff;
     margin: 17px;
+    border-radius: .3rem;
+    background-color: #6c757d;
 }
 hr {
     background-color: purple;
